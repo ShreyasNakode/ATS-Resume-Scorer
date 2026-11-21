@@ -1,0 +1,40 @@
+# ATS Resume Scorer — Combined Backend + Frontend Dependencies
+# Architecture: FastAPI + Streamlit + BERT + spaCy + Scikit-Learn + Clerk + PyPDF2 + python-docx
+
+# Web Frameworks
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+
+# NLP & Machine Learning (BERT, spaCy, Scikit-Learn)
+spacy>=3.7.0,<4.0.0
+scikit-learn>=1.4.0
+sentence-transformers>=2.5.0
+transformers>=4.38.0
+torch>=2.0.0
+numpy>=1.26.0
+rapidfuzz>=3.6.0
+
+# Document Parsing (PyPDF2 & Python Docx)
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+pdfplumber>=0.11.0
+
+# Authentication & Security (Clerk & JWT)
+PyJWT[crypto]>=2.8.0
+cryptography>=42.0.0
+httpx>=0.27.0
+
+# Frontend UI (Streamlit)
+streamlit>=1.32.0
+requests>=2.31.0
+
+# PDF & Report Generation
+jinja2>=3.1.0
+reportlab>=4.1.0
+
+# Optional Cloud Integrations
+groq>=0.13.0
+supabase>=2.4.0

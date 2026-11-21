@@ -1,0 +1,27 @@
+{
+  "model_type": "BERT_Bidirectional_Encoder_Representations_from_Transformers",
+  "base_architecture": "sentence-transformers/all-MiniLM-L6-v2",
+  "fallback_architecture": "bert-base-uncased",
+  "embedding_dimension": 384,
+  "max_sequence_length": 512,
+  "pooling_strategy": "mean",
+  "similarity_metric": "cosine_similarity",
+  "similarity_thresholds": {
+    "skill_validation": 0.55,
+    "job_description_match": 0.65,
+    "keyword_semantic_equivalence": 0.75
+  },
+  "score_composition": {
+    "bert_semantic_weight": 0.50,
+    "scikit_tfidf_weight": 0.20,
+    "keyword_exact_overlap_weight": 0.30
+  },
+  "training_parameters": {
+    "loss_function": "CosineSimilarityLoss",
+    "optimizer": "AdamW",
+    "learning_rate": 2e-5,
+    "batch_size": 16,
+    "epochs": 10,
+    "warmup_ratio": 0.1
+  }
+}

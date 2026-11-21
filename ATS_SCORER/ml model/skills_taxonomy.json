@@ -1,0 +1,34 @@
+{
+  "categories": {
+    "languages": [
+      "python", "javascript", "typescript", "java", "c++", "c#", "c", "golang", "go",
+      "rust", "ruby", "php", "swift", "kotlin", "scala", "r", "dart", "shell", "bash"
+    ],
+    "backend_frameworks": [
+      "fastapi", "flask", "django", "spring boot", "express", "node.js", "nestjs",
+      "asp.net", "ruby on rails", "gin", "fiber", "laravel", "graphql", "rest api", "grpc"
+    ],
+    "frontend_frameworks": [
+      "react", "react.js", "next.js", "vue", "vue.js", "nuxt.js", "angular", "svelte",
+      "tailwind css", "bootstrap", "html5", "css3", "sass", "redux", "zustand"
+    ],
+    "cloud_and_devops": [
+      "aws", "amazon web services", "azure", "gcp", "google cloud platform",
+      "docker", "kubernetes", "k8s", "terraform", "ansible", "jenkins", "gitlab ci",
+      "github actions", "linux", "nginx", "helm", "prometheus", "grafana", "ci/cd"
+    ],
+    "databases_and_storage": [
+      "postgresql", "mysql", "mongodb", "redis", "elasticsearch", "sqlite",
+      "dynamodb", "cassandra", "neo4j", "supabase", "firebase", "snowflake", "bigquery"
+    ],
+    "data_and_ai": [
+      "machine learning", "deep learning", "nlp", "computer vision", "llm", "transformers",
+      "bert", "sentence-transformers", "spacy", "scikit-learn", "pytorch", "tensorflow",
+      "pandas", "numpy", "opencv", "hugging face", "langchain", "llamaindex", "rag"
+    ],
+    "methodologies_and_tools": [
+      "git", "github", "gitlab", "jira", "agile", "scrum", "kanban", "unit testing",
+      "pytest", "jest", "system design", "microservices", "event-driven architecture"
+    ]
+  }
+}
